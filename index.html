@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Butterfly Collection</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container nav">
+        <a href="#" class="logo">
+            <span>🦋</span>
+            Butterfly Collection
+        </a>
+
+        <a href="#collection" class="nav-link">Collection</a>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="container hero-content">
+
+            <div class="hero-text">
+                <p class="eyebrow">DIGITAL COLLECTION</p>
+
+                <h1>
+                    Discover the
+                    <span>world of butterflies.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Explore beautiful butterfly species, learn about their
+                    habitats, appearance and interesting facts.
+                </p>
+
+                <a href="#collection" class="button">
+                    Explore collection
+                    <span>↓</span>
+                </a>
+            </div>
+
+            <div class="hero-butterfly">
+                <div class="butterfly-circle">
+                    🦋
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- COLLECTION -->
+    <section class="collection" id="collection">
+        <div class="container">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">MY COLLECTION</p>
+                    <h2>Butterfly species</h2>
+                </div>
+
+                <p class="counter">
+                    <span id="count">0</span> species
+                </p>
+            </div>
+
+
+            <!-- SEARCH -->
+            <div class="search-area">
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search butterflies..."
+                    >
+                </div>
+            </div>
+
+
+            <!-- CARDS -->
+            <div class="butterfly-grid" id="butterflyGrid"></div>
+
+            <p class="no-results" id="noResults">
+                No butterflies found.
+            </p>
+
+        </div>
+    </section>
+
+</main>
+
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <div class="modal-content">
+
+        <button class="close-button" id="closeModal">
+            ×
+        </button>
+
+        <div class="modal-image">
+            <img id="modalImage" src="" alt="">
+        </div>
+
+        <div class="modal-info">
+
+            <p class="eyebrow" id="modalFamily"></p>
+
+            <h2 id="modalName"></h2>
+
+            <p class="scientific-name" id="modalScientific"></p>
+
+            <p id="modalDescription"></p>
+
+            <div class="facts">
+
+                <div class="fact">
+                    <span>🌎</span>
+                    <div>
+                        <small>Habitat</small>
+                        <strong id="modalHabitat"></strong>
+                    </div>
+                </div>
+
+                <div class="fact">
+                    <span>📏</span>
+                    <div>
+                        <small>Wingspan</small>
+                        <strong id="modalWingspan"></strong>
+                    </div>
+                </div>
+
+                <div class="fact">
+                    <span>🍃</span>
+                    <div>
+                        <small>Diet</small>
+                        <strong id="modalDiet"></strong>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="interesting-fact">
+                <strong>Interesting fact</strong>
+                <p id="modalFact"></p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<footer>
+    <div class="container footer-content">
+        <p>🦋 Butterfly Collection</p>
+        <p>School project · 2026</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
