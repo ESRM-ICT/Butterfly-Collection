@@ -17,7 +17,7 @@ const butterflies = [
         name: "Peacock Butterfly",
         scientific: "Aglais io",
         family: "Nymphalidae",
-        image: "images/peacock.jpg",
+        image: "images/Peacock_butterfly_(Aglais_io)_2.jpg",
         habitat: "Europe and temperate Asia",
         wingspan: "5.0–5.5 cm",
         diet: "Nectar",
