@@ -31,7 +31,7 @@ const butterflies = [
         name: "Swallowtail",
         scientific: "Papilio machaon",
         family: "Papilionidae",
-        image: "images/swallowtail.jpg",
+        image: "images/Papilio_machaon_Mitterbach_01.jpg",
         habitat: "Europe, Asia and North America",
         wingspan: "6.5–8.6 cm",
         diet: "Nectar",
