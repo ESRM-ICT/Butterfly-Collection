@@ -3,7 +3,7 @@ const butterflies = [
         name: "Monarch Butterfly",
         scientific: "Danaus plexippus",
         family: "Nymphalidae",
-        image: "images/monarch.jpg",
+        image: "images/Monarch_Butterfly_Danaus_plexippus_Male_2664px.jpg",
         habitat: "North and South America",
         wingspan: "8.9–10.2 cm",
         diet: "Nectar",
